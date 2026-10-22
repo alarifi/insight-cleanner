@@ -1,19 +1,19 @@
 <div align="center">
 
-<img src="images/logo.png" width="110" height="110" alt="Insight Cleaner Logo" />
+<img src="logo.png" width="110" height="110" alt="Insight Cleaner Logo" />
 
 # Insight Cleaner
 ### Next-Gen System Optimization, Deep Cleaning & Windows Repair Arsenal
 **Modern • Safe • High-Performance • Cyber-Dark Aesthetics**
 
-[![Release](https://img.shields.io/badge/Release-v1.0.0-00E5FF?style=for-the-badge&logo=github)](https://github.com)
+[![Release](https://img.shields.io/badge/Release-v1.0.0-00E5FF?style=for-the-badge&logo=github)](https://github.com/alarifi/insight-cleanner/releases)
 [![Platform](https://img.shields.io/badge/Platform-Windows%2010%20%7C%2011-0077FF?style=for-the-badge&logo=windows)](https://microsoft.com/windows)
 [![Framework](https://img.shields.io/badge/.NET-8.0%20WPF-68217A?style=for-the-badge&logo=dotnet)](https://dotnet.microsoft.com)
-[![Architecture](https://img.shields.io/badge/Arch-x64-success?style=for-the-badge)](https://github.com)
+[![Architecture](https://img.shields.io/badge/Arch-x64-success?style=for-the-badge)](https://github.com/alarifi/insight-cleanner)
 
 <br/>
 
-<img src="images/dashboard.png" width="95%" alt="Insight Cleaner Dashboard Screenshot" style="border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.6);" />
+<img src="dashboard.png" width="95%" alt="Insight Cleaner Dashboard Screenshot" style="border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.6);" />
 
 </div>
 
@@ -58,7 +58,7 @@ Unlike traditional disk cleaners, **Insight Cleaner** features live real-time it
 
 ## 📥 Download & Installation
 
-You can download the latest release from the [GitHub Releases](https://github.com) page.
+You can download the latest release from the [GitHub Releases](https://github.com/alarifi/insight-cleanner/releases) page.
 
 | Package | Format | Description |
 | :--- | :---: | :--- |
@@ -70,46 +70,8 @@ You can download the latest release from the [GitHub Releases](https://github.co
 ## 💻 System Requirements
 
 - **Operating System**: Windows 10 (Build 1809+) or Windows 11 (64-bit).
-- **Runtime**: [.NET 8.0 Desktop Runtime](https://dotnet.microsoft.com/download/dotnet/8.0) (Installed automatically or prompted if absent).
+- **Runtime**: [.NET 8.0 Desktop Runtime](https://dotnet.microsoft.com/download/dotnet/8.0).
 - **Privileges**: Administrator rights (required for Windows repair, registry cleaning, and DNS operations).
-
----
-
-## 🏗️ Building from Source
-
-### Prerequisites
-- [Visual Studio 2022](https://visualstudio.microsoft.com/) (v17.8+) or [.NET 8 SDK](https://dotnet.microsoft.com/download/dotnet/8.0).
-- [Inno Setup 7](https://jrsoftware.org/isinfo.php) (optional, for compiling the installer).
-
-### 1. Clone the repository
-```bash
-git clone https://github.com/YOUR_USERNAME/InsightCleaner.git
-cd InsightCleaner
-```
-
-### 2. Build Release Binary
-```bash
-dotnet build InsightCleaner.csproj -c Release -r win-x64
-```
-
-### 3. Publish & Package
-```bash
-dotnet publish InsightCleaner.csproj -c Release -r win-x64 -o artifacts/InsightCleaner-1.0.0-win-x64
-```
-
-To build the setup installer:
-```powershell
-& "C:\Program Files\Inno Setup 7\ISCC.exe" "insight cleanner.iss"
-```
-
----
-
-## 🛡️ Architecture & Tech Stack
-
-- **UI Framework**: Windows Presentation Foundation (WPF) on `.NET 8.0`.
-- **Architecture Pattern**: MVVM (Model-View-ViewModel) powered by `CommunityToolkit.Mvvm`.
-- **Theme & Vector Styling**: Custom hardware-accelerated XAML styles, linear gradients, and drop-shadow glow effects.
-- **Packaging Engine**: Inno Setup 7 with solid LZMA2 compression.
 
 ---
 
