@@ -79,3 +79,16 @@ You can download the latest release from the [GitHub Releases](https://github.co
 
 Developed with passion by **INSIGHT Tools** ([insight-ye.com](https://insight-ye.com)).  
 All rights reserved. Designed for safe, transparent, and high-performance system maintenance.
+
+
+---
+
+## ⭐ Rate This App | قيّم تجربتك
+
+Have you tried **insight-cleanner**? Please share an honest 1–5 star rating and suggestions to help us improve.
+
+هل جربت البرنامج؟ شارك تقييمك الصادق من 1 إلى 5 نجوم وملاحظاتك لتساعدنا على تطويره.
+
+**[⭐ Rate this app / قيّم البرنامج](https://github.com/alarifi/insight-cleanner/issues/new?template=rate-your-experience.yml)**
+
+> GitHub sign-in is required. Reviews posted as Issues are public; do not share private information. The GitHub repository Star button is a separate way to show support, not a 1–5 rating.
